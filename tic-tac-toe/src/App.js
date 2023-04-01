@@ -80,7 +80,7 @@ export default function Game() {
     }
     return (
       <li key={move}>
-        <button onClick={() => jumpTo(move)}>{description}</button>
+        <button className='rounded-md border-2 border-black hover:scale-125' onClick={() => jumpTo(move)}>{description}</button>
       </li>
     );
   });
